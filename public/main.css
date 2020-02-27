@@ -1,0 +1,21 @@
+body {
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 80vh;
+}
+
+.main-img {
+    width: 25%;
+}
+
+p {
+    font-family: 'Open Sans';
+    font-variant: normal;
+    font-weight: 400;
+    font-size: 1.5em;
+}
