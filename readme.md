@@ -1,9 +1,9 @@
-# Node Experiment #10001 ![Code Style](https://img.shields.io/badge/code%20style-airbnb-green.svg) [![License | GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+# Node Experiment #10001 ![Workflow](https://github.com/eowfenth/node-experiment-10001/workflows/Workflow/badge.svg?branch=master) ![Code Style](https://img.shields.io/badge/code%20style-airbnb-green.svg) [![License | GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 <div align="center">An experimental webserver example that does not care about security at all but has **zero** dependencies.</div>
 <div align="center">Made with Node and Typescript.</div>
 
 
-What it does:
+### What it does:
 
 - serve html with streams;
 - feature routes;
@@ -13,7 +13,7 @@ What it does:
 - make use of typescript, eslint and prettier;
 - follow tsdoc standard and conventional commits.
 
-What it could be better for its purpose:
+### What it could be better for its purpose:
 
 - the static content could be in a external service;
 - path traversal may not be an issue but the solution could be more elegant, https://security.stackexchange.com/a/123723;
