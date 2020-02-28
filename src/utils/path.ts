@@ -17,8 +17,8 @@ const path_handler = (path: string): {
   if (parameters_list) {
     parameters_list.split('&').forEach((entity) => {
       const [param_name, param_value] = entity.split('=');
-      const isIncluded = parameters.filter((param) => param.name === param_name).length > 0;
-      if (!isIncluded) {
+      const is_included = parameters.filter((param) => param.name === param_name).length > 0;
+      if (!is_included) {
         parameters.push({
           name: param_name,
           value: param_value,
