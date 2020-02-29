@@ -2,6 +2,12 @@
 <div align="center">An experimental webserver example that does not care about security at all but has **zero** dependencies.</div>
 <div align="center">Made with Node and Typescript.</div>
 
+### How to run the project;
+
+1. Clone this project with `git git@github.com:eowfenth/node-experiment-10001.git`;
+2. Inside this project directory, install the packages with your favorite packager manager, i.e.: `npm i`;
+3. Run this project with `ts-node server.ts`, you can do it also by typing `npx ts-node server.ts` if you haven't ts-node installed globally;
+4. You can access `localhost:8081/success` at your browser for the success endpoint or any other endpoint for 404 endpoint.
 
 ### What it does:
 
